@@ -1,13 +1,13 @@
 def square_array(numbers)
   
-  numbers = []
+  squared_array = []
 
   numbers.each do |number|
     number = number ** 2 
-    numbers.push(number)
+    squared_array.push(number)
   end
   
-  return numbers
+  return squared_array
   
 end
 
