@@ -4,10 +4,10 @@ def square_array(numbers)
 
   numbers.each do |number|
     number = number ** 2 
-    result.push(number)
+    numbers.push(number)
   end
   
-  return result
+  return numbers
   
 end
 
